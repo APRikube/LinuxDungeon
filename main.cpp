@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
 
-#include "character.h"
+#include "wizard.h"
 
 using namespace std;
 
 int main() {
   Weapon sword("Da fucking sword", 5);
   sword.infos();
-  Character yoyo("Yonnel", 100, 0, 0, 1);
+  Wizard yoyo("Yonnel", 100, 0, 0, 1, 0);
   yoyo.infos();
 }

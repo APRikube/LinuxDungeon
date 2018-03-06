@@ -1,11 +1,13 @@
 #include <iostream>
 
-#include "charcater.h"
+#include "character.h"
 
 class Wizard : public Character {
 private:
-  int mana;
+  int m_mana;
 
  public:
-  void lancerSort(Personnage cible);
+  Wizard();
+  Wizard(std::string name, short int lifepoints, int posX, int posY, int speed, int mana);
+  void lancerSort(Character cible);
 };
