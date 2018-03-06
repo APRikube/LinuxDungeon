@@ -10,4 +10,6 @@ private:
   Wizard();
   Wizard(std::string name, short int lifepoints, int posX, int posY, int speed, int mana);
   void lancerSort(Character cible);
+  virtual void infos() const;
+  
 };
